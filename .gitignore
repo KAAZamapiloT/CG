@@ -1,0 +1,68 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+bin/
+out/
+
+# CMake in-source artifacts (if ever generated in root)
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Visual Studio & MSVC
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.vcxproj.user
+*.slnx
+x64/
+x86/
+ARM64/
+Debug/
+Release/
+
+# Compiled objects, binaries & debug symbols
+*.obj
+*.o
+*.exe
+*.out
+*.pdb
+*.ilk
+*.idb
+*.exp
+
+# Compiled libraries (ignoring root/build level)
+*.dll
+*.lib
+*.so
+*.dylib
+*.a
+
+# Whitelist bundled vendor dependencies
+!SDL3-*/
+!SDL3-*/**
+!glad/
+!glad/**
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
